@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@font-face {
+    font-family:bebas;
+    src: url(fontes/BebasNeue-Regular.ttf); 
+    
+}
+@font-face {
+
+    font-family:idrod; src: url(fontes/idroid.otf);
+    
+}
+
+body {
+    background-color: #84e1ad;
+    margin: 0px;
+}
+
+header { 
+    background: linear-gradient(to bottom ,#5FCB8F, #4CB87B, #256943 );
+    padding: 7px;
+}
+
+.cabecario { 
+    color: white;
+    font-family: 'bebas';
+    font-weight: normal; 
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.623);
+} 
+
+
+#texto1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center; 
+    font-size: small;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.623);
+    padding-bottom: 15px;
+}
+
+#links a{
+    text-align: left;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 6px;
+    font-weight: bold;
+}
+
+section {
+    background-color: white;
+    margin: 0px 80px 0px 80px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
+}
+
+#principal {
+    font-family:'idrod';
+    color: #397252;
+    margin: 0px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.textop {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    line-height: 1.8;
+    text-indent: 25px;
+}
+
+.h2 {
+    font-family:'idrod' ;
+    color: #397252;
+    margin: 20px;
+    padding-left: 30px;
+    background: linear-gradient(to right, #84e1ad, white)
+}
+
+#bugdroid {
+    text-align: center;
+    
+}
+
+#irina {
+    text-align: center;
+    overflow: auto;
+    
+}
+#robo {
+    text-align: center;
+    width: 100%;
+}
+#video{
+    background-color: darkgreen;
+    margin: 0px 80px 0px 80px;
+    position: relative;
+    padding-bottom: 50%;
+    padding: 200px;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#lista {
+    background-color: white;
+    margin: 0px 80px 0px 80px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+#h22{
+    background-color: #256943;
+    color: white;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px ;
+    padding-left: 20px;
+    padding-bottom:20px ;
+    padding-top: 20px ;
+    padding-right: 20px ;
+    border-radius: 10px 10px 0px 0px;
+    font-size: medium;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.226);
+    
+}
+
+
+#fim {
+    background-color: #80e2aa;
+    margin: 0 px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.226);
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer p{
+    background-color: rgb(4, 46, 4);
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 8px;
+    color: white ;
+}
+
